@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Air Riffle Club UNJ</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: #111;
+      line-height: 1.6;
+    }
+    .hero {
+      width: 100%;
+      height: 70vh;
+      background: #ccc center/cover no-repeat;
+    }
+    .container {
+      max-width: 1100px;
+      margin: auto;
+      padding: 60px 20px;
+    }
+    h1 {
+      font-size: clamp(36px, 6vw, 72px);
+      margin-bottom: 10px;
+      text-transform: uppercase;
+    }
+    h2 {
+      font-size: clamp(28px, 5vw, 56px);
+      margin-bottom: 40px;
+      font-weight: 400;
+      text-transform: uppercase;
+    }
+    p {
+      max-width: 800px;
+      font-size: 18px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+      margin-top: 60px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 6px;
+      object-fit: cover;
+    }
+    .sponsor {
+      background: #7fa6a8;
+      padding: 80px 20px;
+      margin-top: 80px;
+    }
+    .sponsor h3 {
+      text-align: center;
+      font-size: 28px;
+      margin-bottom: 50px;
+      text-transform: uppercase;
+      color: #fff;
+    }
+    .sponsor-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+      gap: 30px;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .sponsor-box {
+      border: 2px solid #fff;
+      padding: 30px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .sponsor-box img {
+      max-width: 100%;
+      max-height: 80px;
+      object-fit: contain;
+    }
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <section class="hero"></section>
+
+  <section class="container">
+    <h1>WELCOME TO THE AIR RIFFLE CLUB</h1>
+    <h2>THE HOME OF RIFFLE CLUB</h2>
+
+    <p>
+      10 Meter Air Rifle is a precision shooting sport that originated in Europe in the late 19th century
+      and later became part of the Olympic Games in 1984. The sport emphasizes focus, discipline,
+      and technical accuracy.
+    </p>
+
+    <p>
+      At Universitas Negeri Jakarta (UNJ), 10m Air Rifle is developed as a competitive student sport,
+      supporting athlete development through structured training, academic balance, and campus sports programs.
+      UNJ encourages students to excel both in education and national-level shooting achievements.
+    </p>
+
+    <div class="gallery">
+      <img src="img/action1.jpg" alt="Air Riffle Training">
+      <img src="img/action2.jpg" alt="Air Riffle Competition">
+    </div>
+  </section>
+
+  <section class="sponsor">
+    <h3>THANK YOU FOR OUR SPONSOR</h3>
+    <div class="sponsor-grid">
+      <div class="sponsor-box"><img src="img/pln.png" alt="PLN"></div>
+      <div class="sponsor-box"><img src="img/adidas.png" alt="Adidas"></div>
+      <div class="sponsor-box"><img src="img/visa.png" alt="Visa"></div>
+      <div class="sponsor-box"><img src="img/kfc.png" alt="KFC"></div>
+      <div class="sponsor-box"><img src="img/spotify.png" alt="Spotify"></div>
+    </div>
+  </section>
+
+  <footer>
+    © Air Riffle Club UNJ
+  </footer>
+
+</body>
+</html>
